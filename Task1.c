@@ -27,8 +27,7 @@ int main()
     int a = 5;
     printf("%d\n",a);
     float pi = 3123.14566;
-    printf("%.2f\n",pi);
+    printf("%.2f\n",pi); //print
     char c = 'E';
     printf("%c",c);
-
 }

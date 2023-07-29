@@ -35,11 +35,21 @@ int main()
     printf("\n%d",b);
     printf("\n%d",--b);
 }*/
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     int a;
     printf("nhap vao so a ");
     scanf("%d",&a);
     printf("so %d la so %s \n ",a,(a%2==0)?"chan":"le");
+}*/
+#include <stdio.h>
+int main()
+{ // phuong trinh bac 1 : ax + b = 0
+    float a,x,b;
+
+    printf("nhap he so a b\n");
+    scanf("%f %f",&a,&b);
+    x = -b/a;
+    printf("x = %.2f \n",x);
 }

@@ -23,7 +23,7 @@ int main()
 
     
 }*/
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 { 
     int a = 5;
@@ -31,8 +31,15 @@ int main()
     printf("%d",a++);
     printf("\n%d",a);
     printf("\n%d",++a);
-
     printf("\n%d",b--);
     printf("\n%d",b);
     printf("\n%d",--b);
+}*/
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("nhap vao so a ");
+    scanf("%d",&a);
+    printf("so %d la so %s \n ",a,(a%2==0)?"chan":"le");
 }

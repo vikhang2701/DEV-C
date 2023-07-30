@@ -43,13 +43,29 @@ int main()
     scanf("%d",&a);
     printf("so %d la so %s \n ",a,(a%2==0)?"chan":"le");
 }*/
+/*
 #include <stdio.h>
 int main()
 { // phuong trinh bac 1 : ax + b = 0
     float a,x,b;
-
     printf("nhap he so a b\n");
     scanf("%f %f",&a,&b);
-    x = -b/a;
-    printf("x = %.2f \n",x);
+    if (a==0)
+    {
+       printf("pt vo nghiem \n");
+    }
+    else
+    {
+        x = -b/a;
+        printf("x = %.2f\n",x);
+    }
+}
+*/
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+
+int main()
+{
+    
 }

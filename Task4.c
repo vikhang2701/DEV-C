@@ -29,7 +29,6 @@ int main()
         else
         {
             printf("\nPT Vo nghiem");
-        }
-    
+        }  
         }
 }
